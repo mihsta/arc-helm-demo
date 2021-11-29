@@ -23,7 +23,7 @@ spec:
         kubernetes.io/os: linux
       containers:
       - name: {{.Release.Name}}
-        image: arck8sconformance.azurecr.io/samples/demo:v0.1.0
+        image: mihailsta/diplomapp-frontend
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
