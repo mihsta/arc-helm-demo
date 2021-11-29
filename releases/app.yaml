@@ -6,8 +6,8 @@ metadata:
 spec:
   releaseName: arc-k8s-demo
   chart:
-    git: https://github.com/mihsta/arc-helm-demo
-    ref: master
-    path: charts/azure-arc-sample
+    repository: https://stefanprodan.github.io/podinfo
+    name: podinfo
+    version: 3.2.0
   values:
     serviceName: arc-k8s-demo
